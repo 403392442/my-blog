@@ -1,0 +1,33 @@
+.commentContainer {
+    width: 75vw;
+    float: right;
+    background-color: #e2e8f0;
+
+}
+
+.userInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.userInfoDivider {
+    border: 1px dashed #94a3b8;
+}
+
+.commentContentContainer {
+    padding: 10px;
+    min-height: 100px;
+}
+
+.commentContentContainer textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #e2e8f0;
+}
+
+.commentOperationsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}

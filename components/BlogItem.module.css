@@ -1,0 +1,23 @@
+.blogContainer {
+    width: 80vw;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border: 2px solid #94a3b8;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.blogContainer:hover {
+    background-color: #e2e8f0;
+}
+
+.blogTitleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogContentContainer {
+    margin-top: 10px;
+}

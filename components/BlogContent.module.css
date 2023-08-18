@@ -1,0 +1,56 @@
+.blogContentContainer {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.titleDivideLine {
+    background-color: #94a3b8;
+    height: 5px;
+}
+
+.authorInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.authorInfoDivideLine {
+    border: 1px dashed #94a3b8;
+}
+
+.contentContainer {
+    border-left: 1px solid #94a3b8;
+    border-bottom: 1px solid #94a3b8;
+    border-right: 1px solid #94a3b8;
+    border-radius: 5px;
+    font-size: 18px;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.newContentContainer textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #94a3b8;
+}
+
+.newContentContainer textarea:focus {
+    outline: 1px solid #94a3b8;
+}
+
+.newContentContainer button {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #94a3b8;
+    background-color: white;
+    font-weight: bold;
+    color: #94a3b8;
+}
+
+.newContentContainer button:hover {
+    background-color: #94a3b8;
+    color: white;
+}

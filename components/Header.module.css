@@ -1,0 +1,16 @@
+.headerContainer {
+    background-color: #94a3b8;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLoginForm {
+    display: flex;
+    gap: 10px;
+}
+
+.headerContainer h1 {
+    padding: 10px;
+}

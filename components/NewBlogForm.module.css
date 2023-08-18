@@ -1,0 +1,35 @@
+.newBlogFormContainer {
+    width: 80vh;
+    margin: 0 auto;
+}
+
+.newBlogFormContainer input {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.newBlogFormContainer textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.newBlogFormContainer button {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #94a3b8;
+    background-color: white;
+    font-weight: bold;
+    color: #94a3b8;
+}
+
+.newBlogFormContainer button:hover {
+    background-color: #94a3b8;
+    color: white;
+}

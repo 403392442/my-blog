@@ -1,0 +1,49 @@
+.registerFormContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.registerFormLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.formInput {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+.formButtonGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formButtonGroup button {
+    width: 45%;
+    height: 25px;
+}
